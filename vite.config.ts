@@ -23,9 +23,10 @@ export default defineConfig({
     tsconfigPaths(),
     netlifyPlugin(),
   ],
-server: {
-  allowedHosts: [
-    'devserver-preview--mariangele.netlify.app'
-  ],
-  host: true
-}
+  server: {
+    allowedHosts: [
+      'devserver-preview--mariangele.netlify.app'
+    ],
+    host: true
+  }
+});
